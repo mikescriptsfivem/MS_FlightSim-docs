@@ -43,7 +43,6 @@ Players can rebind these in **Settings → Key Bindings → FiveM**.
 | `/gsboard place\|list\|remove` | Place and manage ground-service boards |
 | `/airportnav` | Draw and edit an airport's taxiway network |
 | `/aitraffic preset light\|medium\|heavy` · `why` · `here` | Tune and diagnose AI traffic (ace `msflightsim.admin`) |
-| `/pilotuniform try\|save\|reset\|list` | Set up per-rank pilot uniforms |
 | `subcodiag` *(server console)* | Check the sub-company database setup |
 
 ## The admin panel

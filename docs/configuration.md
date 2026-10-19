@@ -23,7 +23,6 @@ Other update-safe files work the same way:
 | --- | --- |
 | `html/hud-config-overrides.js` | HUD defaults |
 | `locales/zz_overrides.lua` | Changing single translation strings |
-| `config_uniforms.lua` | Pilot uniforms per rank |
 | `config_additions.lua` | Not a settings file: a dated list of every new setting per release, for owners who edit `config.lua` directly |
 
 ## Pilot job or open access

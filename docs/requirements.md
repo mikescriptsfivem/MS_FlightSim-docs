@@ -16,7 +16,6 @@ You need a OneSync server on game build 2699 or newer, oxmysql and ox_lib. Every
 | PolyZone | Optional | Falls back to radius checks |
 | Vehicle keys | Optional | qbx/qb-vehiclekeys, Renewed-Vehiclekeys, wasabi_carlock, okokGarage, jaksam, MrNewbVehicleKeys, qs-vehiclekeys, cd_keys, t1ger_keys, sna-vehiclekeys |
 | Fuel script | Optional | LegacyFuel, ox_fuel, ps-fuel, lc_fuel, cdn-fuel, ti_fuel, ND_Fuel, Renewed-Fuel, BigDaddy-Fuel |
-| Clothing | Optional | illenium-appearance, qb-clothing, esx_skin — for pilot uniforms |
 | Billing | Optional | esx_addonaccount + esx_billing — to back the company fund |
 | City hall | Optional | qbx_cityhall, qb-cityhall, esx_cityhall — for physical licences |
 | Dispatch | Optional | ps-dispatch |
