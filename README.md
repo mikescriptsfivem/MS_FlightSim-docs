@@ -1,6 +1,6 @@
 # MS_FlightSim — Documentation
 
-The aviation career for FiveM: players train for a licence, rank up, buy aircraft and fly 17 mission types, while a tower, AI traffic and a ground crew bring the airport to life. Runs on **ESX, QBCore and QBox**.
+The aviation career for FiveM: players train for a licence, rank up, buy aircraft and fly 16 paid missions plus airshows, while a tower, AI traffic and a ground crew bring the airport to life. Runs on **ESX, QBCore and QBox**.
 
 This repository is the public documentation for server owners who bought the script. The script itself is delivered through your Cfx.re Keymaster.
 
