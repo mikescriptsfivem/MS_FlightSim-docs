@@ -60,12 +60,6 @@ Crashes add strikes.
 
 A **Safety Refresher** course ($20,000, once per 24 hours) removes one strike. The logbook shows each pilot's safety record.
 
-## Pilot uniforms
-
-Every rank has its own uniform, male and female. Players put it on from the tablet's **JOBS** tab (**Wear uniform**) and get their own clothes back with **Civilian clothes**.
-
-To set the look, an admin dresses their ped with any clothing menu and runs `/pilotuniform save <rank number>` — once with a male ped, once with a female ped. `/pilotuniform list` shows the rank numbers. The looks are stored in the resource's `data/` folder; you can also edit `config_uniforms.lua` by hand.
-
 ## The pilot tablet
 
 `/pilottablet` holds it all: Jobs, Routes, Training, Logbook, Badges, Paint, Services, Map, Flight Plan, Sub-Company, and Company for captains. `/myflights` lists every recorded flight.

@@ -26,7 +26,7 @@ This repository is the public documentation for server owners who bought the scr
 ## What's in the box
 
 - **Flight school**: theory exam and practical test for planes and helicopters, then specialist ratings (multi-engine, turbine, jet, skylift, medevac, firefighting).
-- **Career**: 10 pilot ranks earned by flying, a logbook with badges, a safety record with strikes, and a uniform for every rank.
+- **Career**: 10 pilot ranks earned by flying, a logbook with badges, and a safety record with strikes.
 - **Missions**: cargo, passengers, sightseeing, survey, crop dusting, banner towing, sky writing, offshore supply, airliner flights, smuggling, heavy lift, medevac, wildfire suppression, supply drops, VIP extraction, airshows, and aerial firefighting.
 - **Aircraft ownership**: dealer with buy and rent, hangar, insurance, fuel, repair, maintenance and paint.
 - **Air traffic control**: player controllers, a three-screen tower console, flight plans, runway locks and pre-recorded ATC voice.
