@@ -15,7 +15,14 @@ This repository is the public documentation for server owners who bought the scr
 | [Configuration](docs/configuration.md) | Where to put your changes and the settings owners change most |
 | [Player journey](docs/player-journey.md) | Licences, ratings, ranks, aircraft, strikes |
 | [Jobs and missions](docs/jobs.md) | Every mission with its requirements and pay |
-| [Systems](docs/systems.md) | ATC, AI traffic, ground services, companies, cockpit |
+| [Systems](docs/systems.md) | Overview of ATC, AI traffic, ground services, companies, cockpit |
+| [Airports and airspace](docs/airports.md) | Built-in and custom airports, zones, runway discipline, taxi networks |
+| [Air traffic control](docs/atc.md) | Clearances and flight plans for pilots; duty and the tower console for controllers |
+| [Ground services](docs/ground-services.md) | The ground crew job, services, vehicles and AI aircraft at stands |
+| [Companies](docs/companies.md) | The pilot company, company fund and player sub-companies |
+| [Cockpit and flying](docs/cockpit.md) | PFD/HUD, autopilot, autoland, TCAS, wind, malfunctions |
+| [Economy and pay](docs/economy.md) | How pay is worked out and how to tune money |
+| [Languages](docs/languages.md) | Switching language, changing single texts, adding a language |
 | [Commands and admin tools](docs/commands.md) | Player, admin and key bindings, the `/adminps` panel |
 | [Integrations](docs/integrations.md) | DMV, city hall, billing, Discord logs, exports |
 | [Performance](docs/performance.md) | Running it on busy servers |
