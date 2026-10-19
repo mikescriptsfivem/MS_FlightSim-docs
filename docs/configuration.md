@@ -12,7 +12,7 @@ Everything is set in `config.lua`, but **your own changes belong in `config_over
    ```lua
    Config.PilotAuthorization.enabled = false
    Config.Payouts.payMultiplier      = 1.25
-   Config.Strikes.maxBeforeBlacklist = 10
+   Config.StrikeRetraining.fee       = 15000
    ```
 
 3. Restart MS_FlightSim. The overrides load after `config.lua`, so your values win.

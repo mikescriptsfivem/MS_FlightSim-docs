@@ -6,28 +6,38 @@ A new player goes from the flight school to their first paid job in three steps:
 
 ## 1. Get a licence
 
-At the Training NPC at LSIA.
+At the Flight Instructor NPC at LSIA. Admins can add instructors at other airports from `/adminps`.
 
 | Licence | Theory exam | Practical test | Aircraft |
 | --- | --- | --- | --- |
-| Plane | $1,500 · 15 questions · 70% to pass | $55,000 · 8 phases: taxi, take-off, climb, land at Sandy Shores, return | Mammatus |
-| Helicopter | $1,500 · separate question bank | $45,000 · 6 phases: hover, city checkpoints, return and land | Conada |
+| Plane | $1,500 · 15 questions · 70% to pass | $55,000 · 8 phases | Mammatus |
+| Helicopter | $1,500 · 15 questions from a separate bank | $45,000 · 6 phases | Conada |
 
-- If the pilot job is required, a player without it needs an on-duty pilot to authorise them before training.
-- Failing the practical keeps the theory pass; only the fee is lost.
+- **Plane practical**: controls brief, taxi, take-off, climb to 3,000 ft, land at Sandy Shores, depart Sandy, return to LSIA, park on the apron.
+- **Helicopter practical**: brief, hover, Mission Row, an in-air checkpoint in the hills, return to LSIA, land.
+- A failed theory exam can be retaken after 10 minutes.
+- Failing or cancelling the practical keeps the theory pass for the rest of the session; only the fee is lost.
+
+**When the pilot job is required** (`Config.PilotAuthorization.enabled = true`), a player without it must be authorised by a player on the pilot job before taking the exam or the practical. The authorisation lasts until they disconnect. Players on the pilot job train without it.
 
 ## 2. Earn specialist ratings
 
-From the tablet **Training** tab. Each needs flight hours and completed jobs first.
+From the Flight Instructor NPC. Ratings cost nothing; each practical is a real mission, and a failed attempt can be retried after 10 minutes.
 
-- **Planes**: Multi-engine (20 h, 8 jobs) → Turbine (30 h, 12 jobs) → Jet (40 h, 15 jobs)
-- **Helicopters**: Skylift (25 h, 10 jobs) → Medevac (5 jobs) → Firefighting (5 jobs)
+| Rating | Needs | Flight hours | Completed jobs |
+| --- | --- | --- | --- |
+| Multi-engine | Plane licence | 20 | 8 |
+| Turbine | Multi-engine | 30 | 12 |
+| Jet | Turbine | 40 | 15 |
+| Skylift | Helicopter licence | 25 | 10 |
+| Medevac | Skylift | — | 5 |
+| Firefighting | Medevac | — | 5 |
 
-Larger aircraft at the dealer need the matching rating to buy.
+Players on the ambulance job need only the helicopter licence for Medevac; fire-job players need only the helicopter licence for Medevac and Firefighting.
 
 ## 3. Rank up
 
-Rank score = flight hours + a bonus for badges and jobs (capped at 20). Each rank adds 2% to pay.
+Rank score = flight hours + a bonus for badges and completed jobs (the bonus is capped at 20). Each rank above Student adds 2% to pay, so an Instructor earns 18% more.
 
 | Rank | Score |
 | --- | --- |
@@ -44,7 +54,16 @@ Rank score = flight hours + a bonus for badges and jobs (capped at 20). Each ran
 
 ## 4. Own aircraft
 
-The dealer NPC sells and rents 31 aircraft. Rentals last 120 minutes with a 40% deposit; selling back returns 30%. Owners store aircraft in the hangar and pay for insurance, fuel, repairs, maintenance and paint.
+The dealer NPC at LSIA sells and rents 29 aircraft. Buying needs the matching base licence (plane or helicopter).
+
+| Term | Default |
+| --- | --- |
+| Rental length | 120 minutes |
+| Rental deposit | 40% of the price |
+| Selling back | 30% of the price |
+| Insurance | 1% of the price per 30 days |
+
+Owners store aircraft in the hangar and pay for fuel ($8/gal), repairs ($10/point), maintenance and paint ($5,000).
 
 ## 5. Fly safely
 
@@ -56,10 +75,20 @@ Crashes add strikes.
 | 3 | Dealer prices +25% |
 | 5 | Dealer closed to them for 24 hours |
 | 8 | Dealer prices +75% |
-| 10 | Blacklisted until an admin lifts it |
+| 10 | Permanently blacklisted from the dealer until an admin lifts it |
 
-A **Safety Refresher** course ($20,000, once per 24 hours) removes one strike. The logbook shows each pilot's safety record.
+The **Safety Refresher** course ($20,000, once per 24 hours, needs at least one strike) removes one strike. It ends with one theory question and 60 seconds to answer; a wrong answer or a timeout loses the fee and removes nothing. It never lifts a blacklist. The logbook shows each pilot's safety record.
 
 ## The pilot tablet
 
-`/pilottablet` holds it all: Jobs, Routes, Training, Logbook, Badges, Paint, Services, Map, Flight Plan, Sub-Company, and Company for captains. `/myflights` lists every recorded flight.
+`/pilottablet` opens the pilot's own tabs: Logbook, Badges, Map, Flight Plan and Sub-Company, plus Company for captains. The other tabs open at their NPCs:
+
+| Tab | Opens at |
+| --- | --- |
+| Jobs, Routes, Other | Cargo / job NPC |
+| Training | Flight Instructor |
+| Shop | Aircraft dealer |
+| Paint | Painter |
+| Services | Fuel and service zone |
+
+`/myflights` lists your 25 most recent flights. A flight is recorded when it lasts at least 30 seconds and covers at least 500 m.
