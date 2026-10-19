@@ -12,13 +12,13 @@ Players mostly use the tablet and NPCs; admins do nearly everything from `/admin
 | `/myflights` | List your recorded flights |
 | `/resetpilothud` | Reset the HUD layout |
 | `/unstuckjobs` | Clear a stuck job state |
-| `/groundservices` | Sign on or off as ground crew |
+| `/groundservices` | In an aircraft: request ground services. On foot: open the crew board (sign on there) |
 | `/gscrew` | Open the ground-crew board from anywhere |
 | `/msefleet` | Ground-vehicle menu |
 | `/apheading <deg>` · `/apalt <ft>` · `/apmode nav\|hdg` | Autopilot heading, altitude and mode |
 | `/heavylift` · `/heavyliftcancel` | Start or cancel a heavy-lift job |
 | `/cancelmedevac` | Cancel a medevac |
-| `/subco ...` | Sub-company actions (create, rename, fleet, assign, board) |
+| `/subco ...` | Sub-company actions: create, rename, disband, assign, unassign, fleet, board |
 
 ## Keys
 
@@ -27,11 +27,11 @@ Players can rebind these in **Settings → Key Bindings → FiveM**.
 | Key | Action |
 | --- | --- |
 | F10 | ATC menu and cursor (`/atccursor` if F10 is taken) |
-| E | Interact with NPCs and the ground board; sit at the tower console (rebindable as "ATC console: sit at the screens") |
+| E | Interact with NPCs and the ground board; sit at the tower console (that one is rebindable as "ATC console: sit at the screens") |
 | B | Smoke colour (sky writing, airshow) |
 | P / G / O / H | Airshow leader: cycle routine, engage, start, disengage |
 | L | Belt loader on/off |
-| Y | Drop cargo (smuggling) |
+| Y | Drop cargo (smuggling; set by `Config.Smuggling.dropKey`) |
 | *(unbound)* | Autopilot and autoland toggles — bind them yourself |
 
 ## Admin commands
@@ -41,7 +41,7 @@ Players can rebind these in **Settings → Key Bindings → FiveM**.
 | `/adminps` | Admin panel (name set by `Config.AdminCommand`) |
 | `/atcscope place\|list\|remove\|calibrate` | Place and manage ATC tower consoles |
 | `/gsboard place\|list\|remove` | Place and manage ground-service boards |
-| `/airportnav` | Draw and edit an airport's taxiway network |
+| `/airportnav` | Show an airport's taxiway network; editing and saving it is admin-only |
 | `/aitraffic preset light\|medium\|heavy` · `why` · `here` | Tune and diagnose AI traffic (ace `msflightsim.admin`) |
 | `subcodiag` *(server console)* | Check the sub-company database setup |
 

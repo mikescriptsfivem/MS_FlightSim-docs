@@ -6,10 +6,10 @@ Beyond the missions, these systems run the airport. Each can be tuned or switche
 
 ## Air traffic control
 
-- Pilots press **F10** for the ATC menu: request taxi, take-off and landing, file flight plans. Runways lock while in use.
-- Players on the pilot job at grade 2 or higher can go on duty as controller from the HUD or the tower console. Each airport has one controller, signed off automatically when they leave.
-- **Tower console**: a three-screen radar on TV props. Press **E** (rebindable) to sit, use the mouse to operate it, and **W/A/D/S** to move between screens. Admins place it with `/atcscope place` or the **Screens** tab.
-- Flying a job without ATC clearance pays less (half by default, set in `Config.Payouts`).
+- Pilots press **F10** in the aircraft for the ATC menu: request take-off and landing (runway or helipad), plus Ground Services and the VIP limousine. Flight plans are filed in the tablet's **Flight Plan** tab. Runways lock while in use.
+- Players on the pilot job at grade 2 or higher (`Config.ATCDuty.atcMinGrade`) go on duty at the airport's tower console. Each airport has one controller, signed off 15 seconds after leaving the airport or on disconnect. In open-access mode only admins can take ATC duty.
+- **Tower console**: a three-screen radar on TV props. Press **E** (rebindable) to sit, use the mouse to operate it, **A/D/W** to look at the left, right and main screen, **S** to step back, and **Backspace** to leave. Admins place it with `/atcscope place` or the **Screens** tab.
+- While a controller is on duty, flying a job without clearance pays half (`Config.Payouts.noATCClearancePayMult`). With no controller on duty, plans are approved automatically.
 - **ATC voice**: pre-recorded English voice lines with ATIS, included and free to run.
 
 ## AI traffic and ground services
@@ -29,7 +29,7 @@ Beyond the missions, these systems run the airport. Each can be tuned or switche
 - Movable, resizable PFD/HUD with attitude indicator, TAWS/GPWS, stall warnings and engine on/off.
 - Autopilot with heading bug and altitude selector (up to 8,500 ft), autoland for planes and auto-hover for helicopters.
 - **TCAS** shows nearby traffic within 12 km.
-- **Wind** is the same for everyone on the server (3–18 knots plus gusts) and drifts the aircraft sideways.
-- **Malfunctions** can occur during jobs (3% chance every 30 seconds, more with poor maintenance): stuck gear, fuel leak, engine, electrical or hydraulic failure.
-- **Airspace**: altitude and no-fly zones push aircraft out and add strikes; restricted zones send escort jets. Emergency services are exempt.
+- **Wind** is the same for everyone on the server (3–18 knots plus gusts by default; weather profiles can raise it) and drifts the aircraft sideways.
+- **Malfunctions** can occur during jobs (3% chance every 30 seconds, more with poor maintenance): stuck gear, fuel leak, engine failure, electrical or hydraulic failure.
+- **Airspace**: altitude and no-fly zones push aircraft out and add strikes; police, ambulance and fire are exempt from them. Restricted zones send escort jets; only medevac, firefighting and water-bomber job aircraft and emergency landings are exempt from those.
 - **Flight recorder**: every flight is logged with route, duration and approach.
