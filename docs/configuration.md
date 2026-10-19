@@ -51,7 +51,7 @@ The server console prints which mode is active on every start.
 | `Config.AITraffic.groundOnly` | `true` | AI aircraft stay parked at stands. `false` enables flying AI (beta) |
 | `Config.ATCScope.pilotsSeeTraffic` | `false` | Whether pilots, not only controllers, see traffic on their radar |
 | `Config.Performance` | | Entity budgets for busy servers (see [Performance](performance.md)) |
-| `Config.Debug` | `false` | Keep `false` on a live server: `true` bypasses every rank and licence gate |
+| `Config.Debug` | `false` | Keep `false` on a live server: `true` skips the pilot-job, rank and rating checks |
 
 ## Economy
 

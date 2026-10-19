@@ -39,4 +39,4 @@ Drop the folders in, add the ensure lines in the right order, and start the serv
 
 - The ATC voice ships pre-recorded in `html/sounds/atc/cache` (about 31 MB). Upload the whole folder: it needs no API key and costs nothing to run.
 - Never restart `MS_FlightSim_LSIA` while players are connected. Restarting a map resource crashes clients.
-- Keep `Config.Debug = false` on a live server. With it on, every rank and licence gate is bypassed.
+- Keep `Config.Debug = false` on a live server. With it on, the pilot-job, rank and rating checks are skipped.

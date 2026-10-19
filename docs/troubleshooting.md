@@ -15,7 +15,7 @@ Most problems come from three things: the pilot-job setting, the start order, or
 | Ground board or tower screen is black | The map or prop resource is missing, or the screen was placed with an old model. Check `MS_FlightSim_LSIA` is running and re-place it from the **Screens** tab |
 | Sub-Company tab says "not set up" | Run `subcodiag` in the server console; if tables are missing, import `sql/migrations.sql` |
 | F10 does nothing | Another script uses F10. Rebind it in **Settings → Key Bindings → FiveM**, or use `/atccursor` |
-| Every gate is open and anyone can do anything | `Config.Debug` is `true`. Set it to `false` on a live server |
+| Anyone can start any job regardless of job or rank | `Config.Debug` is `true`. Set it to `false` on a live server |
 | Players crash when an admin restarts something | Never restart `MS_FlightSim_LSIA` (a map) with players online |
 | Your config changes disappear after an update | They were made in `config.lua`. Move them to `config_overrides.lua` |
 

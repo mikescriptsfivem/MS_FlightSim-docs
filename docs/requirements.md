@@ -12,9 +12,8 @@ You need a OneSync server on game build 2699 or newer, oxmysql and ox_lib. Every
 | ox_lib | Required | |
 | Framework | Required | QBox (`qbx_core`), QBCore (`qb-core`) or ESX (`es_extended`), auto-detected |
 | ox_target | Optional | Without it, NPCs use an `[E]` prompt |
-| ox_inventory | Optional | Only for item rewards; smuggling pays cash without it |
-| PolyZone | Optional | Falls back to radius checks |
-| Vehicle keys | Optional | qbx/qb-vehiclekeys, Renewed-Vehiclekeys, wasabi_carlock, okokGarage, jaksam, MrNewbVehicleKeys, qs-vehiclekeys, cd_keys, t1ger_keys, sna-vehiclekeys |
+| ox_inventory | Optional | On QBCore/QBox, smuggling pays black money as an item with it; without it, to the dirty-money account (`Config.QBDirtyMoneyAccount`, default `cash`). ESX always uses the `black_money` account |
+| Vehicle keys | Optional | Keys are given automatically with qbx_vehiclekeys, qb-vehiclekeys, Renewed-Vehiclekeys, wasabi_carlock, okokGarage, jaksam vehicle keys and MrNewbVehicleKeys |
 | Fuel script | Optional | LegacyFuel, ox_fuel, ps-fuel, lc_fuel, cdn-fuel, ti_fuel, ND_Fuel, Renewed-Fuel, BigDaddy-Fuel |
 | Billing | Optional | esx_addonaccount + esx_billing — to back the company fund |
 | City hall | Optional | qbx_cityhall, qb-cityhall, esx_cityhall — for physical licences |
@@ -22,7 +21,7 @@ You need a OneSync server on game build 2699 or newer, oxmysql and ox_lib. Every
 
 ## Companion resources
 
-These are detected at runtime; MS_FlightSim works without them, but some features need them.
+All optional: MS_FlightSim runs without them, and the features that need one switch off.
 
 | Resource | Adds |
 | --- | --- |

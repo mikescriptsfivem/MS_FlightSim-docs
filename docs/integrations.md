@@ -32,9 +32,9 @@ local MSF = exports['MS_FlightSim']
 MSF:HasCertificateSync(identifier, 'plane')   -- 'plane' | 'heli' | a specialist rating
 MSF:GetPilotRankScore(identifier)
 MSF:IsATCOnDuty()
-MSF:HasPhysicalLicense(...)                   -- for police scripts checking a licence card
+MSF:HasPhysicalLicense(identifier, licenseType)   -- for police scripts checking a licence card
 MSF:GetServerWind()
-MSF:RaiseGroundRequest(...)
+MSF:RaiseGroundRequest(spec)
 MSF:GroundCrewCount()
 ```
 
