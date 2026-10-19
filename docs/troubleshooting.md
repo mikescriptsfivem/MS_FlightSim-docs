@@ -11,10 +11,10 @@ Most problems come from three things: the pilot-job setting, the start order, or
 | *"Requires physical … license — purchase at City Hall"* | `Config.CityHallBridge.requirePhysicalLicense` is on. Set it to `false` unless you want the city-hall step |
 | A job shows as locked in the tablet | Rank or rating missing. The card shows the reason; see [Jobs](jobs.md) |
 | *"No supported framework found"* | MS_FlightSim started before your framework. Move its ensure line to the end |
-| No AI aircraft at the stands | By design they appear only when ground crew are signed on. Run `/aitraffic why` as admin to see the reason |
+| No AI aircraft at the stands | By design they appear only when ground crew are signed on. Run `/aitraffic why` (needs the `msflightsim.admin` ace) to see the reason |
 | Ground board or tower screen is black | The map or prop resource is missing, or the screen was placed with an old model. Check `MS_FlightSim_LSIA` is running and re-place it from the **Screens** tab |
 | Sub-Company tab says "not set up" | Run `subcodiag` in the server console; if tables are missing, import `sql/migrations.sql` |
-| F10 does nothing | Another script uses F10. Rebind it in **Settings → Key Bindings → FiveM**, or use `/atccursor` |
+| F10 does nothing | It only works seated in a plane or helicopter once the avionics are up. Otherwise another script uses F10: Rebind it in **Settings → Key Bindings → FiveM**, or use `/atccursor` |
 | Anyone can start any job regardless of job or rank | `Config.Debug` is `true`. Set it to `false` on a live server |
 | Players crash when an admin restarts something | Never restart `MS_FlightSim_LSIA` (a map) with players online |
 | Your config changes disappear after an update | They were made in `config.lua`. Move them to `config_overrides.lua` |
