@@ -1,0 +1,25 @@
+/* MikeScripts house palette: the same blue as the pilot tablet and menus. */
+:root {
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #60a5fa;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #60a5fa 20%, #2563eb);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #2563eb 50%, #60a5fa 50%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+.dark {
+  --vp-c-bg: #1e1e2e;
+  --vp-c-bg-alt: #181825;
+  --vp-c-bg-elv: #232336;
+  --vp-c-bg-soft: #26263a;
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+}
+
+/* Tables read better full width in reference pages. */
+.vp-doc table { display: table; width: 100%; }
+.vp-doc th { white-space: nowrap; }

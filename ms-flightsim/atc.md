@@ -1,7 +1,5 @@
 # Air traffic control
 
-[← Back to contents](../README.md)
-
 Pilots ask the tower for landing and takeoff clearance and file flight plans, and a player controller at a three-screen tower console approves or denies them.
 
 ## How it works

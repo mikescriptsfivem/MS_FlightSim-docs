@@ -1,13 +1,15 @@
 # Installation
 
-[← Back to contents](../README.md)
-
 Drop the folders in, add the ensure lines in the right order, and start the server. The database creates its own tables on first start.
 
 ## Steps
 
 1. Extract the download into your `resources` folder.
-2. Add the ensure lines to `server.cfg`. **Order matters: MS_FlightSim always starts last.**
+2. Add the ensure lines to `server.cfg`.
+
+   ::: warning Order matters
+   The asset resources start first and **MS_FlightSim always starts last**, after your framework.
+   :::
 
    ```cfg
    ensure oxmysql
@@ -37,6 +39,14 @@ Drop the folders in, add the ensure lines in the right order, and start the serv
 
 ## Good to know
 
-- The ATC voice ships pre-recorded in `html/sounds/atc/cache` (about 31 MB). Upload the whole folder: it needs no API key and costs nothing to run.
-- Never restart `MS_FlightSim_LSIA` while players are connected. Restarting a map resource crashes clients.
-- Keep `Config.Debug = false` on a live server. With it on, the pilot-job, rank and rating checks are skipped.
+::: info ATC voice
+The ATC voice ships pre-recorded in `html/sounds/atc/cache` (about 31 MB). Upload the whole folder: it needs no API key and costs nothing to run.
+:::
+
+::: danger Never restart the map with players online
+Restarting `MS_FlightSim_LSIA` (or `MS_FlightSim_MSE`) while players are connected crashes their game. Start them once and leave them running; restarting `MS_FlightSim` itself is safe.
+:::
+
+::: warning Debug mode
+Keep `Config.Debug = false` on a live server. With it on, the pilot-job, rank and rating checks are skipped.
+:::

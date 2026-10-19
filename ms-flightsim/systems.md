@@ -1,7 +1,5 @@
 # Systems
 
-[← Back to contents](../README.md)
-
 Beyond the missions, these systems run the airport. Each can be tuned or switched off in its own config block.
 
 ## Air traffic control

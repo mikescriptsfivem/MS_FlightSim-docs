@@ -1,7 +1,5 @@
 # Troubleshooting
 
-[← Back to contents](../README.md)
-
 Most problems come from three things: the pilot-job setting, the start order, or a missing companion resource. Check the server console first — the script says what it detected on every start.
 
 | Problem | Cause and fix |

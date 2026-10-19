@@ -1,7 +1,5 @@
 # Airports, locations and airspace
 
-[← Back to contents](../README.md)
-
 Six airports ship ready to fly, admins add or adjust more in game with `/adminps`, and the airspace rules keep pilots off the city and on the runways.
 
 ## Built-in airports

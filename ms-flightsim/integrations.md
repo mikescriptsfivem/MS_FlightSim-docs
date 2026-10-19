@@ -1,7 +1,5 @@
 # Integrations
 
-[← Back to contents](../README.md)
-
 All integrations are off or auto-detected by default. Their code sits in the open `bridge/` folder so you can adapt them to custom scripts.
 
 | Integration | Setting | What it does |
@@ -15,7 +13,9 @@ All integrations are off or auto-detected by default. Their code sits in the ope
 
 ## Keep secrets in convars
 
-Put the webhook URL and API keys in `server.cfg` with `set`, never in `config.lua` or `config_overrides.lua`: those files are sent to every player's game.
+::: danger Never put secrets in a config file
+Put the webhook URL and API keys in `server.cfg` with `set` (not `setr`). `config.lua` and `config_overrides.lua` are sent to every player's game, so anything in them can be read.
+:::
 
 ```cfg
 set ms_flightsim_webhook "https://discord.com/api/webhooks/..."

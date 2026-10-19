@@ -1,7 +1,5 @@
 # Companies
 
-[← Back to contents](../README.md)
-
 Every pilot works for one main company run by its captains, and any licensed pilot who owns an aircraft can also found a sub-company of their own.
 
 ## The main company

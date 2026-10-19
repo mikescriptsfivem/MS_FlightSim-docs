@@ -1,7 +1,5 @@
 # Economy and pay
 
-[← Back to contents](../README.md)
-
 This page explains how a job's pay is worked out, which settings control money, and how to make the economy richer or tighter.
 
 ## How a job's pay is worked out

@@ -1,7 +1,5 @@
 # Languages and text
 
-[← Back to contents](../README.md)
-
 MS_FlightSim ships in eight languages; you pick one for the whole server, can change any single line of text, and can add a language of your own.
 
 ## Choosing the language

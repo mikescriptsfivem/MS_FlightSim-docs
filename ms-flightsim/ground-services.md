@@ -1,7 +1,5 @@
 # Ground services
 
-[← Back to contents](../README.md)
-
 Ground crew sign on at an airport, take handling jobs on parked aircraft, drive out in the right vehicle, and get paid for each service.
 
 ## Who can work it

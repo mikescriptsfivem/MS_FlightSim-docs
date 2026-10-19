@@ -1,7 +1,5 @@
 # What's new
 
-[← Back to contents](../README.md)
-
 The full notes ship inside the resource as `CHANGELOG_<version>.md`.
 
 ## 4.6.0 — Water Operations (October 2026)

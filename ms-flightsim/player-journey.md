@@ -1,7 +1,5 @@
 # Player journey
 
-[← Back to contents](../README.md)
-
 A new player goes from the flight school to their first paid job in three steps: theory exam, practical test, then the job board. Everything after that is earned by flying.
 
 ## 1. Get a licence

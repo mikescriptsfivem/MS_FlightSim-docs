@@ -1,7 +1,5 @@
 # Cockpit and flying
 
-[← Back to contents](../README.md)
-
 This page explains what the pilot sees in the cockpit, how the autopilot, autoland and auto-hover work, and how wind, malfunctions, fuel and repairs affect a flight.
 
 ## The PFD (cockpit display)

@@ -1,7 +1,5 @@
 # Configuration
 
-[← Back to contents](../README.md)
-
 Everything is set in `config.lua`, but **your own changes belong in `config_overrides.lua`**, which updates never replace. Most day-to-day settings (jobs on/off, pay, aircraft, airports, zones) can also be changed live in `/adminps` without touching a file.
 
 ## Where to put your changes
@@ -17,7 +15,9 @@ Everything is set in `config.lua`, but **your own changes belong in `config_over
 
 3. Restart MS_FlightSim. The overrides load after `config.lua`, so your values win.
 
-> **Exceptions: money and language.** `Config.Payouts`, `Config.Prices` and `Config.Language` are applied while `config.lua` itself loads, so setting them in `config_overrides.lua` has no effect. Change them in `config.lua`, or raise or lower all pay with the **Salaries** dial in `/adminps`. See [Economy](economy.md) and [Languages](languages.md), and re-apply these edits after an update.
+::: warning Exceptions: money and language
+`Config.Payouts`, `Config.Prices` and `Config.Language` are applied while `config.lua` itself loads, so setting them in `config_overrides.lua` has no effect. Change them in `config.lua`, or raise or lower all pay with the **Salaries** dial in `/adminps`. See [Economy](economy.md) and [Languages](languages.md), and re-apply these edits after an update.
+:::
 
 Other update-safe files work the same way:
 

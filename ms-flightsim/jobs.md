@@ -1,7 +1,5 @@
 # Jobs and missions
 
-[← Back to contents](../README.md)
-
 There are 16 paid missions plus the Airshow event. Missions are started from the Jobs tab, which opens at the cargo / job NPC of an airport. Every paid mission can be flown with a co-pilot: each pilot is paid on their own rank, plus a 20% crew bonus (`coPilotBonusPct`).
 
 Base pay is the default before rank, crew bonus, the 10% company cut and your multipliers. Flying without ATC clearance while a controller is on duty halves it, and a damaged aircraft can reduce it to half. The last amount in a pay cell is the completion bonus. Base pay is the default before rank, company cut and your multipliers; change any of it in `Config.Payouts`.

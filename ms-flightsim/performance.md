@@ -1,7 +1,5 @@
 # Performance on busy servers
 
-[← Back to contents](../README.md)
-
 The defaults are tuned for high-population servers. The main lever is how many AI aircraft and NPCs exist at once.
 
 - **AI traffic** is the biggest cost. Keep `Config.AITraffic.groundOnly = true` (the default), and use `/aitraffic preset light` if the airport feels heavy. `Config.AITraffic.maxConcurrentCap` sets the hard limit.

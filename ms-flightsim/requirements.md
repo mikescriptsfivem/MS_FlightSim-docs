@@ -1,7 +1,5 @@
 # Requirements
 
-[← Back to contents](../README.md)
-
 You need a OneSync server on game build 2699 or newer, oxmysql and ox_lib. Everything else is optional and detected automatically.
 
 | Requirement | Needed? | Notes |

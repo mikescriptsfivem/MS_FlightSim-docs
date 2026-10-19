@@ -1,8 +1,10 @@
 # Updating
 
-[← Back to contents](../README.md)
-
 An update replaces the resource files but keeps your database and your override files. Put your changes in `config_overrides.lua` and they survive; the exceptions are money and language settings, which live in `config.lua` (see [Configuration](configuration.md)).
+
+::: tip Before you start
+Back up your database and the `MS_FlightSim` folder. Rolling back is then a copy-paste.
+:::
 
 1. Back up your database and the `MS_FlightSim` folder.
 2. Stop the server. Don't hot-restart a running server mid-update.

@@ -1,7 +1,5 @@
 # Commands and admin tools
 
-[← Back to contents](../README.md)
-
 Players mostly use the tablet and NPCs; admins do nearly everything from `/adminps`. Admin commands accept anyone with the `command` ace or a framework group listed in `Config.AdminGroups` (default `admin`, `superadmin`).
 
 ## Player commands
