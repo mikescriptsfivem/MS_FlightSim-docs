@@ -27,7 +27,7 @@ Players can rebind these in **Settings → Key Bindings → FiveM**.
 | Key | Action |
 | --- | --- |
 | F10 | ATC menu and cursor (`/atccursor` if F10 is taken) |
-| E | Interact with NPCs, the tower console and the ground board |
+| E | Interact with NPCs and the ground board; sit at the tower console (rebindable as "ATC console: sit at the screens") |
 | B | Smoke colour (sky writing, airshow) |
 | P / G / O / H | Airshow leader: cycle routine, engage, start, disengage |
 | L | Belt loader on/off |

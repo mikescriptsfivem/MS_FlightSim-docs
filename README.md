@@ -4,7 +4,7 @@ The aviation career for FiveM: players train for a licence, rank up, buy aircraf
 
 This repository is the public documentation for server owners who bought the script. The script itself is delivered through your Cfx.re Keymaster.
 
-> Current version: **4.5.0**
+> Current version: **4.6.0** — see [What's new](docs/changelog.md)
 
 ## Start here
 
@@ -21,11 +21,12 @@ This repository is the public documentation for server owners who bought the scr
 | [Performance](docs/performance.md) | Running it on busy servers |
 | [Updating](docs/updating.md) | Updating without losing your settings |
 | [Troubleshooting](docs/troubleshooting.md) | Common problems and fixes |
+| [What's new](docs/changelog.md) | Release notes |
 
 ## What's in the box
 
 - **Flight school**: theory exam and practical test for planes and helicopters, then specialist ratings (multi-engine, turbine, jet, skylift, medevac, firefighting).
-- **Career**: 10 pilot ranks earned by flying, a logbook with badges, and a safety record with strikes.
+- **Career**: 10 pilot ranks earned by flying, a logbook with badges, a safety record with strikes, and a uniform for every rank.
 - **Missions**: cargo, passengers, sightseeing, survey, crop dusting, banner towing, sky writing, offshore supply, airliner flights, smuggling, heavy lift, medevac, wildfire suppression, supply drops, VIP extraction, airshows, and aerial firefighting.
 - **Aircraft ownership**: dealer with buy and rent, hangar, insurance, fuel, repair, maintenance and paint.
 - **Air traffic control**: player controllers, a three-screen tower console, flight plans, runway locks and pre-recorded ATC voice.

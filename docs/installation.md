@@ -18,7 +18,7 @@ Drop the folders in, add the ensure lines in the right order, and start the serv
    ensure ms100
    ensure MS_FlightSim_MSE
    ensure MS_FlightSim_LSIA
-   # ensure ms_aircraft_core
+   # ensure ms_aircraft_core   # only with the MS41s water bomber
    # ensure ms41s
 
    ensure MS_FlightSim

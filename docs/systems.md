@@ -8,7 +8,7 @@ Beyond the missions, these systems run the airport. Each can be tuned or switche
 
 - Pilots press **F10** for the ATC menu: request taxi, take-off and landing, file flight plans. Runways lock while in use.
 - Players on the pilot job at grade 2 or higher can go on duty as controller from the HUD or the tower console. Each airport has one controller, signed off automatically when they leave.
-- **Tower console**: a three-screen radar on TV props. Press **E** to sit, use the mouse to operate it, and **W/A/D/S** to move between screens. Admins place it with `/atcscope place` or the **Screens** tab.
+- **Tower console**: a three-screen radar on TV props. Press **E** (rebindable) to sit, use the mouse to operate it, and **W/A/D/S** to move between screens. Admins place it with `/atcscope place` or the **Screens** tab.
 - Flying a job without ATC clearance pays less (half by default, set in `Config.Payouts`).
 - **ATC voice**: pre-recorded English voice lines with ATIS, included and free to run.
 

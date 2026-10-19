@@ -11,4 +11,6 @@ An update replaces the resource files but keeps your database and your override 
 5. Read the release's `CHANGELOG` for behaviour changes and settings to decide on.
 6. Start the server. New database tables and columns are added automatically.
 
+Keep the `data/` folder inside `MS_FlightSim`: it holds what the script saves while running, such as the pilot uniforms.
+
 Database content — licences, hours, ranks, aircraft, companies, layouts drawn in game — always carries over.
