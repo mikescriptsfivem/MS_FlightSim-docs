@@ -11,11 +11,13 @@ Everything is set in `config.lua`, but **your own changes belong in `config_over
 
    ```lua
    Config.PilotAuthorization.enabled = false
-   Config.Payouts.payMultiplier      = 1.25
-   Config.StrikeRetraining.fee       = 15000
+   Config.GroundServices.requireJob  = true
+   Config.ATCScope.pilotsSeeTraffic  = true
    ```
 
 3. Restart MS_FlightSim. The overrides load after `config.lua`, so your values win.
+
+> **Exceptions: money and language.** `Config.Payouts`, `Config.Prices` and `Config.Language` are applied while `config.lua` itself loads, so setting them in `config_overrides.lua` has no effect. Change them in `config.lua`, or raise or lower all pay with the **Salaries** dial in `/adminps`. See [Economy](economy.md) and [Languages](languages.md), and re-apply these edits after an update.
 
 Other update-safe files work the same way:
 
@@ -42,11 +44,11 @@ The server console prints which mode is active on every start.
 | --- | --- | --- |
 | `Config.PilotAuthorization.pilotJob` | `'pilot'` | Job name used when the pilot job is required |
 | `Config.PilotAuthorization.captainGrade` | `3` | Pilot-job grade that unlocks the Company tab (hire, fire, fund). Set it to your top grade |
-| `Config.Language` | `'en'` | `en`, `cs`, `de`, `es`, `fr`, `pl`, `ro` or `ru` |
+| `Config.Language` | `'en'` | `en`, `cs`, `de`, `es`, `fr`, `pl`, `ro` or `ru` — set it in `config.lua` |
 | `Config.Framework` | `'auto'` | Force `'qbox'`, `'qbcore'` or `'esx'` if detection picks the wrong one |
 | `Config.Features` | all on | Switch off individual missions or systems (TCAS, TAWS, wind, autoland and more) |
-| `Config.Payouts` | | Economy Control Panel: global pay multiplier, company cut, rank bonus and pay per job |
-| `Config.Prices` | | Aircraft price multiplier, rent and sell-back rates, training and service fees |
+| `Config.Payouts` | | Economy Control Panel: global pay multiplier, company cut, rank bonus and pay per job — edit in `config.lua` |
+| `Config.Prices` | | Aircraft price multiplier, rental deposit, sell-back rate, training and service fees — edit in `config.lua` |
 | `Config.GroundServices.requireJob` | `false` | `true` limits the ground-services job to the `groundcrew` job |
 | `Config.AITraffic.groundOnly` | `true` | AI aircraft stay parked at stands. `false` enables flying AI (beta) |
 | `Config.ATCScope.pilotsSeeTraffic` | `false` | Whether pilots, not only controllers, see traffic on their radar |

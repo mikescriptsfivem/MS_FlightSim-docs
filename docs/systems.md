@@ -28,8 +28,8 @@ Beyond the missions, these systems run the airport. Each can be tuned or switche
 
 - Movable, resizable PFD/HUD with attitude indicator, TAWS/GPWS, stall warnings and engine on/off.
 - Autopilot with heading bug and altitude selector (up to 8,500 ft), autoland for planes and auto-hover for helicopters.
-- **TCAS** shows nearby traffic within 12 km.
+- **TCAS** warns of nearby traffic: it scans 2,500 m around a plane in the air (400 m on the ground; 1,500 m / 300 m for helicopters).
 - **Wind** is the same for everyone on the server (3–18 knots plus gusts by default; weather profiles can raise it) and drifts the aircraft sideways.
-- **Malfunctions** can occur during jobs (3% chance every 30 seconds, more with poor maintenance): stuck gear, fuel leak, engine failure, electrical or hydraulic failure.
+- **Malfunctions** can occur in flight (3% chance every 30 seconds, more with poor maintenance): stuck gear, fuel leak, engine failure, electrical or hydraulic failure.
 - **Airspace**: altitude and no-fly zones push aircraft out and add strikes; police, ambulance and fire are exempt from them. Restricted zones send escort jets; only medevac, firefighting and water-bomber job aircraft and emergency landings are exempt from those.
 - **Flight recorder**: every flight is logged with route, duration and approach.

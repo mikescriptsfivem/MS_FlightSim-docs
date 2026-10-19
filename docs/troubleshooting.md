@@ -17,7 +17,8 @@ Most problems come from three things: the pilot-job setting, the start order, or
 | F10 does nothing | It only works seated in a plane or helicopter once the avionics are up. Otherwise another script uses F10: Rebind it in **Settings → Key Bindings → FiveM**, or use `/atccursor` |
 | Anyone can start any job regardless of job or rank | `Config.Debug` is `true`. Set it to `false` on a live server |
 | Players crash when an admin restarts something | Never restart `MS_FlightSim_LSIA` (a map) with players online |
-| Your config changes disappear after an update | They were made in `config.lua`. Move them to `config_overrides.lua` |
+| Your config changes disappear after an update | They were made in `config.lua`. Move them to `config_overrides.lua` (money and language settings must stay in `config.lua`; re-apply them) |
+| A pay or price change in `config_overrides.lua` does nothing | Money settings are applied inside `config.lua`. Change them there, or use the **Salaries** dial in `/adminps` |
 
 ## Still stuck?
 
