@@ -19,6 +19,9 @@ The full notes ship inside the resource as `CHANGELOG_<version>.md`.
 - City Hall auto-detection no longer turns on the physical-licence check when the bridge is disabled.
 - The server console says on every start whether the pilot job is required or open access is on.
 - Water landings and takeoffs (including near LSIA) are no longer flagged as off-runway, and a hard touchdown on water is no longer a crash strike.
+- An empty aircraft dealer now shows the reason (for example, no base plane or helicopter licence), and the server console logs the details.
+- Certificates show the character's name instead of the Steam name.
+- Fixed the F8 error `@MS_FlightSim_MSE/bridge/client.lua:116: attempt to index a nil value (global 'lib')`.
 
 **Performance**
 

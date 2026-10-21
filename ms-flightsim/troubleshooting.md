@@ -7,6 +7,8 @@ Most problems come from three things: the pilot-job setting, the start order, or
 | Players are told *"Only licensed pilots can accept aviation contracts"* | The pilot job is required (`Config.PilotAuthorization.enabled = true`) and they don't have it. Give them the job with `/setjob`, or set it to `false` for open access. The console prints which mode is active |
 | *"Plane certificate required"* or *"Helicopter certificate required"* | The player hasn't passed the licence at the Training NPC yet. This applies in open-access mode too |
 | *"Requires physical … license — purchase at City Hall"* | `Config.CityHallBridge.requirePhysicalLicense` is on. Set it to `false` unless you want the city-hall step |
+| The aircraft dealer is empty | The dealer shows the reason, and the server console prints a `dealer refused` or `dealer is EMPTY` line. Most often the character holds specialist ratings but not the base **plane** or **helicopter** licence, or the licences belong to another character. If the console says aircraft are hidden, restore them in `/adminps` → **Aircraft** |
+| F8: `MS_FlightSim_MSE/bridge/client.lua:116 … global 'lib'` | Fixed in 4.6.0. Update `MS_FlightSim_MSE` along with MS_FlightSim |
 | A job shows as locked in the tablet | Rank or rating missing. The card shows the reason; see [Jobs](jobs.md) |
 | *"No supported framework found"* | MS_FlightSim started before your framework. Move its ensure line to the end |
 | No AI aircraft at the stands | By design they appear only when ground crew are signed on. Run `/aitraffic why` (needs the `msflightsim.admin` ace) to see the reason |
